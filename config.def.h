@@ -671,7 +671,7 @@ XRESOURCES_ARRAY
 static const Key keys[] = {
 	/* modifier                     key            function                argument */
 	#if KEYMODES_PATCH
-	{ MODKEY,                       XK_Escape,     setkeymode,             {.ui = COMMANDMODE} },
+	KEYMODES_ENTRY
 	#endif // KEYMODES_PATCH
 	{ MODKEY,                       XK_p,          spawn,                  {.v = dmenucmd } },
 	{ MODKEY|ShiftMask,             XK_Return,     spawn,                  {.v = termcmd } },
