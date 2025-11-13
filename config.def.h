@@ -79,7 +79,7 @@ BAR_DEFAULT_STATUSMON
 BAR_STATUSPADDING_CONSTS
 #endif // BAR_STATUSPADDING_PATCH
 #if BAR_STATUSBUTTON_PATCH
-static const char buttonbar[]            = "<O>";
+BAR_STATUSBUTTON_CONSTS
 #endif // BAR_STATUSBUTTON_PATCH
 #if BAR_SYSTRAY_PATCH
 static const unsigned int systrayspacing = 2;   /* systray spacing */
