@@ -628,7 +628,7 @@ STACKER_KEYS
 #endif // STACKER_PATCH
 
 #if BAR_HOLDBAR_PATCH
-#define HOLDKEY 0 // replace 0 with the keysym to activate holdbar
+BAR_HOLDBAR_DEFS
 #endif // BAR_HOLDBAR_PATCH
 
 /* commands */
