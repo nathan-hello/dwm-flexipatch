@@ -33,7 +33,7 @@ AUTOSTART_CONSTS
 BAR_ANYBAR_CONSTS
 #endif // BAR_ANYBAR_PATCH
 #if BAR_HOLDBAR_PATCH
-static const int showbar                 = 0;   /* 0 means no bar */
+BAR_HOLDBAR_CONSTS
 #else
 static const int showbar                 = 1;   /* 0 means no bar */
 #endif // BAR_HOLDBAR_PATCH
