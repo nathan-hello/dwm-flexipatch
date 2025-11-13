@@ -46,7 +46,7 @@ enum showtab_modes { showtab_never, showtab_auto, showtab_nmodes, showtab_always
 TAB_PATCH_CONSTS
 #endif // TAB_PATCH
 #if BAR_HEIGHT_PATCH
-static const int bar_height              = 0;   /* 0 means derive from font, >= 1 explicit height */
+BAR_HEIGHT_CONSTS
 #endif // BAR_HEIGHT_PATCH
 #if BAR_PADDING_PATCH
 static const int vertpad                 = 10;  /* vertical padding of bar */
