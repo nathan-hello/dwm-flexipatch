@@ -69,11 +69,11 @@ RIODRAW_SWALLOW_CONSTS
 #endif // RIODRAW_PATCH
 /* Status is to be shown on: -1 (all monitors), 0 (a specific monitor by index), 'A' (active monitor) */
 #if BAR_STATUSALLMONS_PATCH
-static const int statusmon               = -1;
+BAR_STATUSALLMONS_CONSTS
 #elif BAR_STATICSTATUS_PATCH
-static const int statusmon               = 0;
+BAR_STATICSTATUS_CONSTS
 #else
-static const int statusmon               = 'A';
+BAR_DEFAULT_STATUSMON
 #endif // BAR_STATUSALLMONS_PATCH | BAR_STATICSTATUS_PATCH
 #if BAR_STATUSPADDING_PATCH
 static const int horizpadbar             = 2;   /* horizontal padding for statusbar */
