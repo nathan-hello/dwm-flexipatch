@@ -485,7 +485,7 @@ static const int refreshrate = 120;  /* refresh rate (per second) for client mov
 PLACEMOUSE_CONSTS
 #endif // PLACEMOUSE_PATCH
 #if DRAGMFACT_PATCH
-static const int refreshrate_dragmfact = 40; /* refresh rate (per second) for dragmfact */
+DRAGMFACT_CONSTS
 #endif // DRAGMFACT_PATCH
 #if DRAGCFACT_PATCH
 static const int refreshrate_dragcfact = 60; /* refresh rate (per second) for dragcfact */
