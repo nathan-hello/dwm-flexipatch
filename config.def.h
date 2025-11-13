@@ -680,7 +680,7 @@ static const Key keys[] = {
 	#endif // RIODRAW_PATCH
 	{ MODKEY,                       XK_b,          togglebar,              {0} },
 	#if TOGGLETOPBAR_PATCH
-	{ MODKEY|ShiftMask,             XK_b,          toggletopbar,           {0} },
+	TOGGLETOPBAR_KEY
 	#endif // TOGGLETOPBAR_PATCH
 	#if TAB_PATCH
 	{ MODKEY|ControlMask,           XK_b,          tabmode,                {-1} },
