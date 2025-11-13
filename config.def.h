@@ -27,10 +27,7 @@ NO_MOD_BUTTONS_CONSTS
 VANITYGAPS_CONSTS
 #endif // VANITYGAPS_PATCH
 #if AUTOSTART_PATCH
-static const char autostartblocksh[]     = "autostart_blocking.sh";
-static const char autostartsh[]          = "autostart.sh";
-static const char dwmdir[]               = "dwm";
-static const char localshare[]           = ".local/share";
+AUTOSTART_CONSTS
 #endif // AUTOSTART_PATCH
 #if BAR_ANYBAR_PATCH
 static const int usealtbar               = 1;        /* 1 means use non-dwm status bar */
