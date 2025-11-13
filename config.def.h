@@ -272,10 +272,7 @@ BAR_LAUNCHER_ARRAY
 #endif // BAR_LAUNCHER_PATCH
 
 #if COOL_AUTOSTART_PATCH
-static const char *const autostart[] = {
-	"st", NULL,
-	NULL /* terminate */
-};
+COOL_AUTOSTART_ARRAY
 #endif // COOL_AUTOSTART_PATCH
 
 #if RENAMED_SCRATCHPADS_PATCH
