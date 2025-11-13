@@ -76,8 +76,7 @@ BAR_STATICSTATUS_CONSTS
 BAR_DEFAULT_STATUSMON
 #endif // BAR_STATUSALLMONS_PATCH | BAR_STATICSTATUS_PATCH
 #if BAR_STATUSPADDING_PATCH
-static const int horizpadbar             = 2;   /* horizontal padding for statusbar */
-static const int vertpadbar              = 0;   /* vertical padding for statusbar */
+BAR_STATUSPADDING_CONSTS
 #endif // BAR_STATUSPADDING_PATCH
 #if BAR_STATUSBUTTON_PATCH
 static const char buttonbar[]            = "<O>";
