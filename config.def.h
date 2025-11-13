@@ -21,7 +21,7 @@ SWALLOW_CONSTS
 BAR_TAGPREVIEW_CONSTS
 #endif // BAR_TAGPREVIEW_PATCH
 #if NO_MOD_BUTTONS_PATCH
-static int nomodbuttons                  = 1;   /* allow client mouse button bindings that have no modifier */
+NO_MOD_BUTTONS_CONSTS
 #endif // NO_MOD_BUTTONS_PATCH
 #if VANITYGAPS_PATCH
 static const unsigned int gappih         = 20;  /* horiz inner gap between windows */
