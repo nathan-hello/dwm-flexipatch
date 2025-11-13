@@ -213,7 +213,6 @@ static char *colors[][ColCount] = {
 	[SchemeHidSel]       = { hidselfgcolor,    hidselbgcolor,    c000000,              c000000 },
 	[SchemeUrg]          = { urgfgcolor,       urgbgcolor,       urgbordercolor,       urgfloatcolor },
 	#if BAR_LTSYMBOL_SCHEME_PATCH
-	[SchemeLtSymbol]     = { ltsymbolfgcolor,  ltsymbolbgcolor,  c000000,              c000000 },
 	#endif // BAR_LTSYMBOL_SCHEME_PATCH
 	#if RENAMED_SCRATCHPADS_PATCH
         RENAMED_SCRATCHPADS_COLORS
