@@ -661,11 +661,7 @@ BAR_STATUSCMD_ARRAY
 #endif // BAR_STATUSCMD_PATCH
 
 #if ON_EMPTY_KEYS_PATCH
-static const char* firefoxcmd[] = {"firefox", NULL};
-static const Key on_empty_keys[] = {
-	/* modifier key            function                argument */
-	{ 0,        XK_f,          spawn,                  {.v = firefoxcmd } },
-};
+ON_EMPTY_KEYS_ARRAY
 #endif // ON_EMPTY_KEYS_PATCH
 
 #if XRESOURCES_PATCH
