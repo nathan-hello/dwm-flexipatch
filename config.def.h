@@ -62,11 +62,9 @@ FOCUSONCLICK_CONSTS
 FLOATPOS_CONSTS
 #endif // FLOATPOS_PATCH
 #if RIODRAW_PATCH
-static const char slopspawnstyle[]       = "-t 0 -c 0.92,0.85,0.69,0.3 -o"; /* do NOT define -f (format) here */
-static const char slopresizestyle[]      = "-t 0 -c 0.92,0.85,0.69,0.3"; /* do NOT define -f (format) here */
-static const int riodraw_borders         = 0;  /* 0 or 1, indicates whether the area drawn using slop includes the window borders */
+RIODRAW_CONSTS
 #if SWALLOW_PATCH
-static const int riodraw_matchpid        = 1;  /* 0 or 1, indicates whether to match the PID of the client that was spawned with riospawn */
+RIODRAW_SWALLOW_CONSTS
 #endif // SWALLOW_PATCH
 #endif // RIODRAW_PATCH
 /* Status is to be shown on: -1 (all monitors), 0 (a specific monitor by index), 'A' (active monitor) */
