@@ -268,10 +268,7 @@ BAR_LAYOUTMENU_CONSTS
 #endif
 
 #if BAR_LAUNCHER_PATCH
-static const Launcher launchers[] = {
-	/* icon to display      command        */
-	{ "surf",               CMD("surf", "duckduckgo.com") },
-};
+BAR_LAUNCHER_ARRAY
 #endif // BAR_LAUNCHER_PATCH
 
 #if COOL_AUTOSTART_PATCH
