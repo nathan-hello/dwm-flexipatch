@@ -18,7 +18,7 @@ static const unsigned int snap           = 32;  /* snap pixel */
 SWALLOW_CONSTS
 #endif // SWALLOW_PATCH
 #if BAR_TAGPREVIEW_PATCH
-static const int scalepreview            = 4;        /* Tag preview scaling */
+BAR_TAGPREVIEW_CONSTS
 #endif // BAR_TAGPREVIEW_PATCH
 #if NO_MOD_BUTTONS_PATCH
 static int nomodbuttons                  = 1;   /* allow client mouse button bindings that have no modifier */
