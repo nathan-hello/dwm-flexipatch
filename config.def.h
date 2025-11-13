@@ -556,11 +556,7 @@ static const Layout layouts[] = {
 #endif // FLEXTILE_DELUXE_LAYOUT
 
 #if XKB_PATCH
-/* xkb frontend */
-static const char *xkb_layouts[]  = {
-	"en",
-	"ru",
-};
+XKB_LAYOUTS_ARRAY
 #endif // XKB_PATCH
 
 /* key definitions */
