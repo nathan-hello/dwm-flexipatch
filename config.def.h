@@ -276,13 +276,9 @@ COOL_AUTOSTART_ARRAY
 #endif // COOL_AUTOSTART_PATCH
 
 #if RENAMED_SCRATCHPADS_PATCH
-static const char *scratchpadcmd[] = {"s", "st", "-n", "spterm", NULL};
+RENAMED_SCRATCHPADS_CMD
 #elif SCRATCHPADS_PATCH
-const char *spcmd1[] = {"st", "-n", "spterm", "-g", "120x34", NULL };
-static Sp scratchpads[] = {
-   /* name          cmd  */
-   {"spterm",      spcmd1},
-};
+SCRATCHPADS_ARRAYS
 #endif // SCRATCHPADS_PATCH
 
 /* Tags
