@@ -705,7 +705,7 @@ static const Key keys[] = {
 	SWAPFOCUS_KEYS
 	#endif // SWAPFOCUS_PATCH
 	#if SWITCHCOL_PATCH
-	{ MODKEY,                       XK_v,          switchcol,              {0} },
+	SWITCHCOL_KEYS
 	#endif // SWITCHCOL_PATCH
 	#if ROTATESTACK_PATCH
 	{ MODKEY|Mod4Mask,              XK_j,          rotatestack,            {.i = +1 } },
