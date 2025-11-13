@@ -116,11 +116,10 @@ static int tagindicatortype              = INDICATOR_TOP_LEFT_SQUARE;
 static int tiledindicatortype            = INDICATOR_NONE;
 static int floatindicatortype            = INDICATOR_TOP_LEFT_SQUARE;
 #if FAKEFULLSCREEN_CLIENT_PATCH && !FAKEFULLSCREEN_PATCH
-static int fakefsindicatortype           = INDICATOR_PLUS;
-static int floatfakefsindicatortype      = INDICATOR_PLUS_AND_LARGER_SQUARE;
+FAKEFULLSCREEN_CLIENT_CONSTS
 #endif // FAKEFULLSCREEN_CLIENT_PATCH
 #if ALWAYSONTOP_PATCH
-static int aotindicatortype              = INDICATOR_TOP_LEFT_LARGER_SQUARE;
+ALWAYSONTOP_CONSTS
 #endif // ALWAYSONTOP_PATCH
 #if ONLYQUITONEMPTY_PATCH
 static const int quit_empty_window_count = 0;   /* only allow dwm to quit if no (<= count) windows are open */
