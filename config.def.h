@@ -893,8 +893,7 @@ static const Key keys[] = {
 	SETBORDERPX_KEYS
 	#endif // SETBORDERPX_PATCH
 	#if CYCLELAYOUTS_PATCH
-	{ MODKEY|ControlMask,           XK_comma,      cyclelayout,            {.i = -1 } },
-	{ MODKEY|ControlMask,           XK_period,     cyclelayout,            {.i = +1 } },
+	CYCLELAYOUTS_KEYS
 	#endif // CYCLELAYOUTS_PATCH
 	#if MPDCONTROL_PATCH
 	{ MODKEY,                       XK_F1,         mpdchange,              {.i = -1} },
