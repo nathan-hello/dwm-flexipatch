@@ -129,9 +129,9 @@ BAR_EXTRASTATUS_CONSTS
 #endif // BAR_EXTRASTATUS_PATCH
 #if BAR_TABGROUPS_PATCH
 #if MONOCLE_LAYOUT
-static void (*bartabmonfns[])(Monitor *) = { monocle /* , customlayoutfn */ };
+BAR_TABGROUPS_MONOCLE_CONSTS
 #else
-static void (*bartabmonfns[])(Monitor *) = { NULL /* , customlayoutfn */ };
+BAR_TABGROUPS_DEFAULT_CONSTS
 #endif // MONOCLE_LAYOUT
 #endif // BAR_TABGROUPS_PATCH
 #if BAR_PANGO_PATCH
