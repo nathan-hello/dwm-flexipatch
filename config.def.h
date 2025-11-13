@@ -135,9 +135,9 @@ BAR_TABGROUPS_DEFAULT_CONSTS
 #endif // MONOCLE_LAYOUT
 #endif // BAR_TABGROUPS_PATCH
 #if BAR_PANGO_PATCH
-static const char font[]                 = "monospace 10";
+BAR_PANGO_CONSTS
 #else
-static const char *fonts[]               = { "monospace:size=10" };
+BAR_DEFAULT_FONTS
 #endif // BAR_PANGO_PATCH
 static const char dmenufont[]            = "monospace:size=10";
 
