@@ -125,7 +125,7 @@ ALWAYSONTOP_CONSTS
 ONLYQUITONEMPTY_CONSTS
 #endif // ONLYQUITONEMPTY_PATCH
 #if BAR_EXTRASTATUS_PATCH
-static const char statussep              = ';'; /* separator between status bars */
+BAR_EXTRASTATUS_CONSTS
 #endif // BAR_EXTRASTATUS_PATCH
 #if BAR_TABGROUPS_PATCH
 #if MONOCLE_LAYOUT
