@@ -488,7 +488,7 @@ PLACEMOUSE_CONSTS
 DRAGMFACT_CONSTS
 #endif // DRAGMFACT_PATCH
 #if DRAGCFACT_PATCH
-static const int refreshrate_dragcfact = 60; /* refresh rate (per second) for dragcfact */
+DRAGCFACT_CONSTS
 #endif // DRAGCFACT_PATCH
 #if DECORATION_HINTS_PATCH
 static const int decorhints  = 1;    /* 1 means respect decoration hints */
