@@ -59,8 +59,7 @@ BAR_PADDING_CONSTS
 FOCUSONCLICK_CONSTS
 #endif // FOCUSONCLICK_PATCH
 #if FLOATPOS_PATCH
-static int floatposgrid_x                = 5;  /* float grid columns */
-static int floatposgrid_y                = 5;  /* float grid rows */
+FLOATPOS_CONSTS
 #endif // FLOATPOS_PATCH
 #if RIODRAW_PATCH
 static const char slopspawnstyle[]       = "-t 0 -c 0.92,0.85,0.69,0.3 -o"; /* do NOT define -f (format) here */
