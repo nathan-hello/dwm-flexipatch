@@ -184,8 +184,7 @@ static char urgbordercolor[]             = "#ff0000";
 static char urgfloatcolor[]              = "#db8fd9";
 
 #if BAR_LTSYMBOL_SCHEME_PATCH
-static char ltsymbolfgcolor[]            = "#222222";
-static char ltsymbolbgcolor[]            = "#fe9877";
+BAR_LTSYMBOL_SCHEME_CONSTS
 #endif // BAR_LTSYMBOL_SCHEME_PATCH
 
 #if RENAMED_SCRATCHPADS_PATCH
