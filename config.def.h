@@ -680,13 +680,13 @@ static const Key keys[] = {
 	#endif // RIODRAW_PATCH
 	{ MODKEY,                       XK_b,          togglebar,              {0} },
 	#if TOGGLETOPBAR_PATCH
-	TOGGLETOPBAR_KEY
+	TOGGLETOPBAR_KEYS
 	#endif // TOGGLETOPBAR_PATCH
 	#if TAB_PATCH
-	TAB_KEY
+	TAB_KEYS
 	#endif // TAB_PATCH
 	#if FOCUSMASTER_PATCH || FOCUSMASTER_RETURN_PATCH
-	FOCUSMASTER_KEY
+	FOCUSMASTER_KEYS
 	#endif // FOCUSMASTER_PATCH / FOCUSMASTER_RETURN_PATCH
 	#if STACKER_PATCH
 	STACKKEYS(MODKEY,                              focus)
