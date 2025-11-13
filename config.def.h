@@ -4,6 +4,9 @@
 #define SHCMD(cmd) { .v = (const char*[]){ "/bin/sh", "-c", cmd, NULL } }
 #define CMD(...)   { .v = (const char*[]){ __VA_ARGS__, NULL } }
 
+/* Include all patch configurations */
+#include "patch/configs/all.h"
+
 /* appearance */
 #if ROUNDED_CORNERS_PATCH
 ROUNDED_CORNERS_CONSTS
