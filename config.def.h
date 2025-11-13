@@ -122,7 +122,7 @@ FAKEFULLSCREEN_CLIENT_CONSTS
 ALWAYSONTOP_CONSTS
 #endif // ALWAYSONTOP_PATCH
 #if ONLYQUITONEMPTY_PATCH
-static const int quit_empty_window_count = 0;   /* only allow dwm to quit if no (<= count) windows are open */
+ONLYQUITONEMPTY_CONSTS
 #endif // ONLYQUITONEMPTY_PATCH
 #if BAR_EXTRASTATUS_PATCH
 static const char statussep              = ';'; /* separator between status bars */
