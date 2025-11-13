@@ -56,7 +56,7 @@ BAR_PADDING_CONSTS
 #define ICONSPACING 5  /* space between icon and title */
 #endif // BAR_WINICON_PATCH
 #if FOCUSONCLICK_PATCH
-static const int focusonwheel            = 0;
+FOCUSONCLICK_CONSTS
 #endif // FOCUSONCLICK_PATCH
 #if FLOATPOS_PATCH
 static int floatposgrid_x                = 5;  /* float grid columns */
