@@ -192,39 +192,7 @@ RENAMED_SCRATCHPADS_CONSTS
 #endif // RENAMED_SCRATCHPADS_PATCH
 
 #if BAR_FLEXWINTITLE_PATCH
-static char normTTBbgcolor[]             = "#330000";
-static char normLTRbgcolor[]             = "#330033";
-static char normMONObgcolor[]            = "#000033";
-static char normGRIDbgcolor[]            = "#003300";
-static char normGRD1bgcolor[]            = "#003300";
-static char normGRD2bgcolor[]            = "#003300";
-static char normGRDMbgcolor[]            = "#506600";
-static char normHGRDbgcolor[]            = "#b96600";
-static char normDWDLbgcolor[]            = "#003333";
-static char normSPRLbgcolor[]            = "#333300";
-static char normfloatbgcolor[]           = "#115577";
-static char actTTBbgcolor[]              = "#440000";
-static char actLTRbgcolor[]              = "#440044";
-static char actMONObgcolor[]             = "#000044";
-static char actGRIDbgcolor[]             = "#004400";
-static char actGRD1bgcolor[]             = "#004400";
-static char actGRD2bgcolor[]             = "#004400";
-static char actGRDMbgcolor[]             = "#507711";
-static char actHGRDbgcolor[]             = "#b97711";
-static char actDWDLbgcolor[]             = "#004444";
-static char actSPRLbgcolor[]             = "#444400";
-static char actfloatbgcolor[]            = "#116688";
-static char selTTBbgcolor[]              = "#550000";
-static char selLTRbgcolor[]              = "#550055";
-static char selMONObgcolor[]             = "#212171";
-static char selGRIDbgcolor[]             = "#005500";
-static char selGRD1bgcolor[]             = "#005500";
-static char selGRD2bgcolor[]             = "#005500";
-static char selGRDMbgcolor[]             = "#508822";
-static char selHGRDbgcolor[]             = "#b98822";
-static char selDWDLbgcolor[]             = "#005555";
-static char selSPRLbgcolor[]             = "#555500";
-static char selfloatbgcolor[]            = "#117799";
+BAR_FLEXWINTITLE_CONSTS
 #endif // BAR_FLEXWINTITLE_PATCH
 
 #if BAR_ALPHA_PATCH
