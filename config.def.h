@@ -500,15 +500,8 @@ DECORATION_HINTS_CONSTS
 
 #if TAPRESIZE_PATCH
 /* mouse scroll resize */
-static const int scrollsensetivity = 30; /* 1 means resize window by 1 pixel for each scroll event */
-/* resizemousescroll direction argument list */
-static const int scrollargs[][2] = {
-	/* width change         height change */
-	{ +scrollsensetivity,	0 },
-	{ -scrollsensetivity,	0 },
-	{ 0, 				  	+scrollsensetivity },
-	{ 0, 					-scrollsensetivity },
-};
+TAPRESIZE_CONSTS
+TAPRESIZE_ARRAY
 #endif // TAPRESIZE_PATCH
 
 #if FLEXTILE_DELUXE_LAYOUT
