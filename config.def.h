@@ -699,10 +699,7 @@ static const Key keys[] = {
 	FOCUSDIR_KEYS
 	#endif // FOCUSDIR_PATCH
 	#if PLACEDIR_PATCH
-	{ MODKEY|ControlMask,           XK_Left,       placedir,               {.i = 0 } }, // left
-	{ MODKEY|ControlMask,           XK_Right,      placedir,               {.i = 1 } }, // right
-	{ MODKEY|ControlMask,           XK_Up,         placedir,               {.i = 2 } }, // up
-	{ MODKEY|ControlMask,           XK_Down,       placedir,               {.i = 3 } }, // down
+	PLACEDIR_KEYS
 	#endif // PLACEDIR_PATCH
 	#if SWAPFOCUS_PATCH && PERTAG_PATCH
 	{ MODKEY,                       XK_s,          swapfocus,              {.i = -1 } },
