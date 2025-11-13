@@ -366,7 +366,11 @@ static const Rule rules[] = {
 #if PERTAG_PATCH
 MONITOR_RULES_PERTAG_ARRAY
 #else
-MONITOR_RULES_DEFAULT_ARRAY
+static const MonitorRule monrules[] = {
+	/* monitor  layout  mfact  nmaster  showbar  topbar */
+	{  1,       2,      -1,    -1,      -1,      -1     }, // use a different layout for the second monitor
+	{  -1,      0,      -1,    -1,      -1,      -1     }, // default
+};
 #endif // PERTAG_PATCH
 #endif // MONITOR_RULES_PATCH
 
