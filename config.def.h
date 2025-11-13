@@ -85,9 +85,7 @@ BAR_STATUSBUTTON_CONSTS
 BAR_SYSTRAY_CONSTS
 #endif // BAR_SYSTRAY_PATCH
 #if BAR_TAGLABELS_PATCH
-static const char ptagf[] = "[%s %s]";          /* format of a tag label */
-static const char etagf[] = "[%s]";             /* format of an empty tag */
-static const int lcaselbl = 0;                  /* 1 means make tag label lowercase */
+BAR_TAGLABELS_CONSTS
 #endif // BAR_TAGLABELS_PATCH
 #if BAR_UNDERLINETAGS_PATCH
 static const unsigned int ulinepad = 5;         /* horizontal padding between the underline and tag */
