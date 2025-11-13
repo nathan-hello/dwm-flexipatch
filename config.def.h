@@ -491,7 +491,7 @@ DRAGMFACT_CONSTS
 DRAGCFACT_CONSTS
 #endif // DRAGCFACT_PATCH
 #if DECORATION_HINTS_PATCH
-static const int decorhints  = 1;    /* 1 means respect decoration hints */
+DECORATION_HINTS_CONSTS
 #endif // DECORATION_HINTS_PATCH
 
 #if NROWGRID_LAYOUT
