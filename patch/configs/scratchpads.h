@@ -10,3 +10,5 @@
           {"spterm",      spcmd1}, \
        };
 
+#define SCRATCHPADS_RULES \
+	RULE(.instance = "spterm", .tags = SPTAG(0), .isfloating = 1)

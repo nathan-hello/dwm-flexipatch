@@ -16,7 +16,10 @@
 	{ MODKEY|ControlMask,           XK_grave,      setscratch,             {.v = scratchpadcmd } }, \
 	{ MODKEY|ShiftMask,             XK_grave,      removescratch,          {.v = scratchpadcmd } },
 
-#define RENAMED_SCRATCHPADS_COLORS \ 
-	[SchemeScratchSel]  = { scratchselfgcolor, scratchselbgcolor, scratchselbordercolor, scratchselfloatcolor },     \
-	[SchemeScratchNorm] = { scratchnormfgcolor, scratchnormbgcolor, scratchnormbordercolor, scratchnormfloatcolor }, \
 
+#define RENAMED_SCRATCHPADS_COLORS \
+	[SchemeScratchSel]  = { scratchselfgcolor, scratchselbgcolor, scratchselbordercolor, scratchselfloatcolor },   \
+	[SchemeScratchNorm] = { scratchnormfgcolor, scratchnormbgcolor, scratchnormbordercolor, scratchnormfloatcolor }, 
+
+#define RENAMED_SCRATCHPADS_RULES \
+	RULE(.instance = "spterm", .scratchkey = 's', .isfloating = 1)
