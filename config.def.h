@@ -264,7 +264,7 @@ BAR_POWERLINE_STATUS_ARRAY
 #endif // BAR_POWERLINE_STATUS_PATCH
 
 #if BAR_LAYOUTMENU_PATCH
-static const char *layoutmenu_cmd = "layoutmenu.sh";
+BAR_LAYOUTMENU_CONSTS
 #endif
 
 #if BAR_LAUNCHER_PATCH
