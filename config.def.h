@@ -719,67 +719,40 @@ static const Key keys[] = {
 	{ MODKEY,                       XK_i,          incnmaster,             {.i = +1 } },
 	{ MODKEY,                       XK_d,          incnmaster,             {.i = -1 } },
 	#if FLEXTILE_DELUXE_LAYOUT
-	{ MODKEY|ControlMask,           XK_i,          incnstack,              {.i = +1 } },
-	{ MODKEY|ControlMask,           XK_u,          incnstack,              {.i = -1 } },
+	FLEXTILE_DELUXE_INCNSTACK_KEYS
 	#endif // FLEXTILE_DELUXE_LAYOUT
 	{ MODKEY,                       XK_h,          setmfact,               {.f = -0.05} },
 	{ MODKEY,                       XK_l,          setmfact,               {.f = +0.05} },
 	#if CFACTS_PATCH
-	{ MODKEY|ShiftMask,             XK_h,          setcfact,               {.f = +0.25} },
-	{ MODKEY|ShiftMask,             XK_l,          setcfact,               {.f = -0.25} },
-	{ MODKEY|ShiftMask,             XK_o,          setcfact,               {0} },
+	CFACTS_KEYS
 	#endif // CFACTS_PATCH
 	#if ASPECTRESIZE_PATCH
-	{ MODKEY|ControlMask|ShiftMask, XK_e,          aspectresize,           {.i = +24} },
-	{ MODKEY|ControlMask|ShiftMask, XK_r,          aspectresize,           {.i = -24} },
+	ASPECTRESIZE_KEYS
 	#endif // ASPECTRESIZE_PATCH
 	#if MOVERESIZE_PATCH
-	{ MODKEY|Mod4Mask,              XK_Down,       moveresize,             {.v = "0x 25y 0w 0h" } },
-	{ MODKEY|Mod4Mask,              XK_Up,         moveresize,             {.v = "0x -25y 0w 0h" } },
-	{ MODKEY|Mod4Mask,              XK_Right,      moveresize,             {.v = "25x 0y 0w 0h" } },
-	{ MODKEY|Mod4Mask,              XK_Left,       moveresize,             {.v = "-25x 0y 0w 0h" } },
-	{ MODKEY|Mod4Mask|ShiftMask,    XK_Down,       moveresize,             {.v = "0x 0y 0w 25h" } },
-	{ MODKEY|Mod4Mask|ShiftMask,    XK_Up,         moveresize,             {.v = "0x 0y 0w -25h" } },
-	{ MODKEY|Mod4Mask|ShiftMask,    XK_Right,      moveresize,             {.v = "0x 0y 25w 0h" } },
-	{ MODKEY|Mod4Mask|ShiftMask,    XK_Left,       moveresize,             {.v = "0x 0y -25w 0h" } },
+	MOVERESIZE_KEYS
 	#endif // MOVERESIZE_PATCH
 	#if MOVESTACK_PATCH
-	{ MODKEY|ShiftMask,             XK_j,          movestack,              {.i = +1 } },
-	{ MODKEY|ShiftMask,             XK_k,          movestack,              {.i = -1 } },
+	MOVESTACK_KEYS
 	#endif // MOVESTACK_PATCH
 	#if TRANSFER_PATCH
-	{ MODKEY,                       XK_x,          transfer,               {0} },
+	TRANSFER_KEYS
 	#endif // TRANSFER_PATCH
 	#if TRANSFER_ALL_PATCH
-	{ MODKEY|ControlMask,           XK_x,          transferall,            {0} },
+	TRANSFER_ALL_KEYS
 	#endif // TRANSFER_ALL_PATCH
 	#if REORGANIZETAGS_PATCH
-	{ MODKEY|ControlMask,           XK_r,          reorganizetags,         {0} },
+	REORGANIZETAGS_KEYS
 	#endif // REORGANIZETAGS_PATCH
 	#if DISTRIBUTETAGS_PATCH
-	{ MODKEY|ControlMask,           XK_d,          distributetags,         {0} },
+	DISTRIBUTETAGS_KEYS
 	#endif // DISTRIBUTETAGS_PATCH
 	#if INSETS_PATCH
-	{ MODKEY|ShiftMask|ControlMask, XK_a,          updateinset,            {.v = &default_inset } },
+	INSETS_KEYS
 	#endif // INSETS_PATCH
 	{ MODKEY,                       XK_Return,     zoom,                   {0} },
 	#if VANITYGAPS_PATCH
-	{ MODKEY|Mod4Mask,              XK_u,          incrgaps,               {.i = +1 } },
-	{ MODKEY|Mod4Mask|ShiftMask,    XK_u,          incrgaps,               {.i = -1 } },
-	{ MODKEY|Mod4Mask,              XK_i,          incrigaps,              {.i = +1 } },
-	{ MODKEY|Mod4Mask|ShiftMask,    XK_i,          incrigaps,              {.i = -1 } },
-	{ MODKEY|Mod4Mask,              XK_o,          incrogaps,              {.i = +1 } },
-	{ MODKEY|Mod4Mask|ShiftMask,    XK_o,          incrogaps,              {.i = -1 } },
-	{ MODKEY|Mod4Mask,              XK_6,          incrihgaps,             {.i = +1 } },
-	{ MODKEY|Mod4Mask|ShiftMask,    XK_6,          incrihgaps,             {.i = -1 } },
-	{ MODKEY|Mod4Mask,              XK_7,          incrivgaps,             {.i = +1 } },
-	{ MODKEY|Mod4Mask|ShiftMask,    XK_7,          incrivgaps,             {.i = -1 } },
-	{ MODKEY|Mod4Mask,              XK_8,          incrohgaps,             {.i = +1 } },
-	{ MODKEY|Mod4Mask|ShiftMask,    XK_8,          incrohgaps,             {.i = -1 } },
-	{ MODKEY|Mod4Mask,              XK_9,          incrovgaps,             {.i = +1 } },
-	{ MODKEY|Mod4Mask|ShiftMask,    XK_9,          incrovgaps,             {.i = -1 } },
-	{ MODKEY|Mod4Mask,              XK_0,          togglegaps,             {0} },
-	{ MODKEY|Mod4Mask|ShiftMask,    XK_0,          defaultgaps,            {0} },
+	VANITYGAPS_KEYS
 	#endif // VANITYGAPS_PATCH
 	#if ALT_TAB_PATCH
 	{ Mod1Mask,                     XK_Tab,        alttabstart,            {0} },
