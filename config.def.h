@@ -683,7 +683,7 @@ static const Key keys[] = {
 	TOGGLETOPBAR_KEY
 	#endif // TOGGLETOPBAR_PATCH
 	#if TAB_PATCH
-	{ MODKEY|ControlMask,           XK_b,          tabmode,                {-1} },
+	TAB_KEY
 	#endif // TAB_PATCH
 	#if FOCUSMASTER_PATCH || FOCUSMASTER_RETURN_PATCH
 	{ MODKEY|ControlMask,           XK_space,      focusmaster,            {0} },
