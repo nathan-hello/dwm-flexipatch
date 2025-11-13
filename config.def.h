@@ -375,12 +375,7 @@ static const MonitorRule monrules[] = {
 #endif // MONITOR_RULES_PATCH
 
 #if INSETS_PATCH
-static const Inset default_inset = {
-	.x = 0,
-	.y = 30,
-	.w = 0,
-	.h = 0,
-};
+INSETS_CONSTS
 #endif // INSETS_PATCH
 
 /* Bar rules allow you to configure what is shown where on the bar, as well as
