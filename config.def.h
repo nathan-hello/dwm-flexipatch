@@ -684,7 +684,7 @@ static const Key keys[] = {
 	{ MODKEY,                       XK_i,          incnmaster,             {.i = +1 } },
 	{ MODKEY,                       XK_d,          incnmaster,             {.i = -1 } },
 	#if FLEXTILE_DELUXE_LAYOUT
-	FLEXTILE_DELUXE_INCNSTACK_KEYS
+	FLEXTILE_DELUXE_KEYS
 	#endif // FLEXTILE_DELUXE_LAYOUT
 	{ MODKEY,                       XK_h,          setmfact,               {.f = -0.05} },
 	{ MODKEY,                       XK_l,          setmfact,               {.f = +0.05} },
@@ -774,9 +774,6 @@ static const Key keys[] = {
 	#if COLUMNS_LAYOUT
 	COLUMNS_LAYOUT_KEYS
 	#endif // COLUMNS_LAYOUT
-	#if FLEXTILE_DELUXE_LAYOUT
-	FLEXTILE_DELUXE_ROTATEAXIS_KEYS
-	#endif // FLEXTILE_DELUXE_LAYOUT
 	{ MODKEY,                       XK_space,      setlayout,              {0} },
 	{ MODKEY|ShiftMask,             XK_space,      togglefloating,         {0} },
 	#if ALWAYSONTOP_PATCH
