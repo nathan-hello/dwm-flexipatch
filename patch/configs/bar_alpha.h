@@ -1,7 +1,7 @@
-#define BAR_ALPHA_CONSTS \
+#define CONFIG_BAR_ALPHA_CONSTS \
 	static const unsigned int baralpha = 0xd0; \
 	static const unsigned int borderalpha = OPAQUE;
-#define BAR_ALPHA_ARRAY \
+#define CONFIG_BAR_ALPHA_ARRAY \
 	static const unsigned int alphas[][3] = { \
 		/*                       fg      bg        border     */ \
 		[SchemeNorm]         = { OPAQUE, baralpha, borderalpha }, \

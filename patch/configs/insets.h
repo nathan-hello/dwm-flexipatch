@@ -1,4 +1,4 @@
-#define INSETS_CONSTS \
+#define CONFIG_INSETS_CONSTS \
 	static const Inset default_inset = { \
 		.x = 0, \
 		.y = 30, \
@@ -6,5 +6,5 @@
 		.h = 0, \
 	};
 
-#define INSETS_KEYS \
+#define CONFIG_INSETS_KEYS \
 	{ MODKEY|ShiftMask|ControlMask, XK_a,          updateinset,            {.v = &default_inset } },

@@ -1,4 +1,4 @@
-#define MAXIMIZE_KEYS \
+#define CONFIG_MAXIMIZE_KEYS \
 	{ MODKEY|ControlMask|ShiftMask, XK_h,          togglehorizontalmax,    {0} }, \
 	{ MODKEY|ControlMask|ShiftMask, XK_l,          togglehorizontalmax,    {0} }, \
 	{ MODKEY|ControlMask|ShiftMask, XK_j,          toggleverticalmax,      {0} }, \

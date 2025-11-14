@@ -1,4 +1,4 @@
-#define MOVEPLACE_KEYS \
+#define CONFIG_MOVEPLACE_KEYS \
 	{ MODKEY,                       XK_KP_7,       moveplace,              {.ui = WIN_NW }},   /* XK_KP_Home,  */ \
 	{ MODKEY,                       XK_KP_8,       moveplace,              {.ui = WIN_N  }},   /* XK_KP_Up,    */ \
 	{ MODKEY,                       XK_KP_9,       moveplace,              {.ui = WIN_NE }},   /* XK_KP_Prior, */ \

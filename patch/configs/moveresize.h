@@ -1,4 +1,4 @@
-#define MOVERESIZE_KEYS \
+#define CONFIG_MOVERESIZE_KEYS \
 	{ MODKEY|Mod4Mask,              XK_Down,       moveresize,             {.v = "0x 25y 0w 0h" } }, \
 	{ MODKEY|Mod4Mask,              XK_Up,         moveresize,             {.v = "0x -25y 0w 0h" } }, \
 	{ MODKEY|Mod4Mask,              XK_Right,      moveresize,             {.v = "25x 0y 0w 0h" } }, \

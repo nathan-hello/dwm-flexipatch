@@ -1,2 +1,2 @@
-#define TRANSFER_ALL_KEYS \
+#define CONFIG_TRANSFER_ALL_KEYS \
 	{ MODKEY|ControlMask,           XK_x,          transferall,            {0} },

@@ -1,4 +1,4 @@
-#define DWMC_SIGNALS \
+#define CONFIG_DWMC_SIGNALS \
 /* signal definitions */  \
 /* signum must be greater than 0 */  \
 /* trigger signals using `xsetroot -name "fsignal:<signame> [<type> <value>]"` */  \

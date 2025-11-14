@@ -1,4 +1,4 @@
-#define FSIGNAL_SIGNALS \
+#define CONFIG_FSIGNAL_SIGNALS \
   /* signal definitions */ \
   /* signum must be greater than 0 */ \
   /* trigger signals using `xsetroot -name "fsignal:<signum>"` */ \ 

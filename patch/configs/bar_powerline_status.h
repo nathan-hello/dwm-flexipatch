@@ -1,4 +1,4 @@
-#define BAR_POWERLINE_STATUS_ARRAY \
+#define CONFIG_BAR_POWERLINE_STATUS_ARRAY \
 	static char *statuscolors[][ColCount] = { \
 		/*                       fg                bg                border                float */ \
 		[SchemeNorm]         = { normfgcolor,      normbgcolor,      normbordercolor,      normfloatcolor }, \

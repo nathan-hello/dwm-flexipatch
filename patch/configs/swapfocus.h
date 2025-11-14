@@ -1,2 +1,2 @@
-#define SWAPFOCUS_KEYS \
+#define CONFIG_SWAPFOCUS_KEYS \
 	{ MODKEY,                       XK_s,          swapfocus,              {.i = -1 } },

@@ -1,4 +1,4 @@
-#define BAR_FLEXWINTITLE_CONSTS \
+#define CONFIG_BAR_FLEXWINTITLE_CONSTS \
 	static char normTTBbgcolor[]             = "#330000"; \
 	static char normLTRbgcolor[]             = "#330033"; \
 	static char normMONObgcolor[]            = "#000033"; \
@@ -33,7 +33,7 @@
 	static char selSPRLbgcolor[]             = "#555500"; \
 	static char selfloatbgcolor[]            = "#117799";
 
-#define BAR_FLEXWINTITLE_COLORS \
+#define CONFIG_BAR_FLEXWINTITLE_COLORS \
 	[SchemeFlexActTTB]   = { titleselfgcolor,  actTTBbgcolor,    actTTBbgcolor,        c000000 }, \
 	[SchemeFlexActLTR]   = { titleselfgcolor,  actLTRbgcolor,    actLTRbgcolor,        c000000 }, \
 	[SchemeFlexActMONO]  = { titleselfgcolor,  actMONObgcolor,   actMONObgcolor,       c000000 }, \

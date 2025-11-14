@@ -1,4 +1,4 @@
-#define COOL_AUTOSTART_ARRAY \
+#define CONFIG_COOL_AUTOSTART_ARRAY \
 	static const char *const autostart[] = { \
 		"st", NULL, \
 		NULL /* terminate */ \

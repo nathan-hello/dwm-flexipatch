@@ -1,8 +1,8 @@
-#define FLOATPOS_CONSTS \
+#define CONFIG_FLOATPOS_CONSTS \
 	static int floatposgrid_x                = 5;  /* float grid columns */ \
 	static int floatposgrid_y                = 5;  /* float grid rows */
 
-#define FLOATPOS_KEYS \
+#define CONFIG_FLOATPOS_KEYS \
 	/* Note that due to key limitations the below example kybindings are defined with a Mod3Mask, */ \
 	/* which is not always readily available. Refer to the patch wiki for more details. */ \
 	/* Client position is limited to monitor window area */ \

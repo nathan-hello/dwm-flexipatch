@@ -1,7 +1,7 @@
-#define KEYMODES_ENTRY \
+#define CONFIG_KEYMODES_ENTRY \
 	{ MODKEY,                       XK_Escape,     setkeymode,             {.ui = COMMANDMODE} },
 
-#define KEYMODES_CMDKEYS \
+#define CONFIG_KEYMODES_CMDKEYS \
   static const Key cmdkeys[] = { \
 	/* modifier                    keys                     function         argument */ \
 	{ 0,                           XK_Escape,               clearcmd,        {0} }, \
@@ -9,7 +9,7 @@
 	{ 0,                           XK_i,                    setkeymode,      {.ui = INSERTMODE} },\
   };
 
-#define KEYMODES_COMMANDS \
+#define CONFIG_KEYMODES_COMMANDS \
 static const Command commands[] = { \
     /* modifier (4 keys)                          keysyms (4 keys)                                function         argument */ \
     { {ControlMask, ShiftMask,  0,         0},    {XK_w,      XK_h,     0,         0},            setlayout,       {.v = &layouts[0]} }, \

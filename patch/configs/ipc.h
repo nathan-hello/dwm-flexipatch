@@ -1,6 +1,6 @@
-#define IPC_SOCKETPATCH \
+#define CONFIG_IPC_SOCKETPATCH \
 static const char *ipcsockpath = "/tmp/dwm.sock";
-#define IPC_IPCCOMMANDS \
+#define CONFIG_IPC_IPCCOMMANDS \
 static IPCCommand ipccommands[] = {                              \
 	IPCCOMMAND( focusmon, 1, {ARG_TYPE_SINT} ),              \
 	IPCCOMMAND( focusstack, 1, {ARG_TYPE_SINT} ),            \

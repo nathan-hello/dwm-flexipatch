@@ -1,4 +1,4 @@
-#define FOCUSADJACENTTAG_KEYS \
+#define CONFIG_FOCUSADJACENTTAG_KEYS \
 	{ MODKEY,                       XK_Left,       viewtoleft,             {0} }, /* note keybinding conflict with focusdir */ \
 	{ MODKEY,                       XK_Right,      viewtoright,            {0} }, /* note keybinding conflict with focusdir */ \
 	{ MODKEY|ShiftMask,             XK_Left,       tagtoleft,              {0} }, /* note keybinding conflict with shifttag */ \

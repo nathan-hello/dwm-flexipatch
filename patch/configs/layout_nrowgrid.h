@@ -1,2 +1,2 @@
-#define NROWGRID_DEFS \
-	#define FORCE_VSPLIT 1
+#define CONFIG_NROWGRID_DEFS \
+	#define CONFIG_FORCE_VSPLIT 1

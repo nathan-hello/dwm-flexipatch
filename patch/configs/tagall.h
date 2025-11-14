@@ -1,4 +1,4 @@
-#define TAGALL_KEYS \
+#define CONFIG_TAGALL_KEYS \
 	{ MODKEY|ShiftMask,             XK_F1,         tagall,                 {.v = "F1"} }, \
 	{ MODKEY|ShiftMask,             XK_F2,         tagall,                 {.v = "F2"} }, \
 	{ MODKEY|ShiftMask,             XK_F3,         tagall,                 {.v = "F3"} }, \

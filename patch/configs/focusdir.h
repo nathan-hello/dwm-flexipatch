@@ -1,4 +1,4 @@
-#define FOCUSDIR_KEYS \
+#define CONFIG_FOCUSDIR_KEYS \
 	{ MODKEY,                       XK_Left,       focusdir,               {.i = 0 } }, /* left */ \
 	{ MODKEY,                       XK_Right,      focusdir,               {.i = 1 } }, /* right */ \
 	{ MODKEY,                       XK_Up,         focusdir,               {.i = 2 } }, /* up */ \

@@ -1,7 +1,7 @@
-#define BAR_VTCOLORS_CONSTS \
+#define CONFIG_BAR_VTCOLORS_CONSTS \
 	static const char title_bg_dark[]   = "#303030"; \
 	static const char title_bg_light[]  = "#fdfdfd";
-#define BAR_VTCOLORS_ARRAY \
+#define CONFIG_BAR_VTCOLORS_ARRAY \
 	static const int color_ptrs[][ColCount] = { \
 		/*                       fg      bg      border  float */ \
 		[SchemeNorm]         = { -1,     -1,     5,      12 }, \

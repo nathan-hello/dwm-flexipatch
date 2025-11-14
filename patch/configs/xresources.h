@@ -1,4 +1,4 @@
-#define XRESOURCES_ARRAY \
+#define CONFIG_XRESOURCES_ARRAY \
 	/* \
 	* Xresources preferences to load at startup. \
 	* \

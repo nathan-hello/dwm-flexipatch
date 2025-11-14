@@ -1,7 +1,7 @@
-#define RENAMED_SCRATCHPADS_CMD \
+#define CONFIG_RENAMED_SCRATCHPADS_CMD \
 	static const char *scratchpadcmd[] = {"s", "st", "-n", "spterm", NULL};
 
-#define RENAMED_SCRATCHPADS_CONSTS \
+#define CONFIG_RENAMED_SCRATCHPADS_CONSTS \
 	static char scratchselfgcolor[]          = "#FFF7D4"; \
 	static char scratchselbgcolor[]          = "#77547E"; \
 	static char scratchselbordercolor[]      = "#894B9F"; \
@@ -11,15 +11,15 @@
 	static char scratchnormbordercolor[]     = "#77547E"; \
 	static char scratchnormfloatcolor[]      = "#77547E";
 
-#define RENAMED_SCRATCHPADS_KEYS \
+#define CONFIG_RENAMED_SCRATCHPADS_KEYS \
 	{ MODKEY,                       XK_grave,      togglescratch,          {.v = scratchpadcmd } }, \
 	{ MODKEY|ControlMask,           XK_grave,      setscratch,             {.v = scratchpadcmd } }, \
 	{ MODKEY|ShiftMask,             XK_grave,      removescratch,          {.v = scratchpadcmd } },
 
 
-#define RENAMED_SCRATCHPADS_COLORS \
+#define CONFIG_RENAMED_SCRATCHPADS_COLORS \
 	[SchemeScratchSel]  = { scratchselfgcolor, scratchselbgcolor, scratchselbordercolor, scratchselfloatcolor },   \
 	[SchemeScratchNorm] = { scratchnormfgcolor, scratchnormbgcolor, scratchnormbordercolor, scratchnormfloatcolor }, 
 
-#define RENAMED_SCRATCHPADS_RULES \
+#define CONFIG_RENAMED_SCRATCHPADS_RULES \
 	RULE(.instance = "spterm", .scratchkey = 's', .isfloating = 1)

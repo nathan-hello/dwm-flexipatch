@@ -1,4 +1,4 @@
-#define EXRESIZE_KEYS \
+#define CONFIG_EXRESIZE_KEYS \
 	{ MODKEY,                       XK_KP_7,       explace,                {.ui = EX_NW }},   /* XK_KP_Home,  */ \
 	{ MODKEY,                       XK_KP_8,       explace,                {.ui = EX_N  }},   /* XK_KP_Up,    */ \
 	{ MODKEY,                       XK_KP_9,       explace,                {.ui = EX_NE }},   /* XK_KP_Prior, */ \

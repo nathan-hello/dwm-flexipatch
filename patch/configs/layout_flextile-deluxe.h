@@ -1,7 +1,7 @@
-#define FLEXTILE_DELUXE_NSTACK_CONSTS \
+#define CONFIG_FLEXTILE_DELUXE_NSTACK_CONSTS \
 	static const int nstack      = 0; /* number of clients in primary stack area */
 
-#define FLEXTILE_DELUXE_KEYS \
+#define CONFIG_FLEXTILE_DELUXE_KEYS \
 	{ MODKEY|ControlMask,           XK_i,          incnstack,              {.i = +1 } }, \
 	{ MODKEY|ControlMask,           XK_u,          incnstack,              {.i = -1 } }, \
 	{ MODKEY|ControlMask,           XK_t,          rotatelayoutaxis,       {.i = +1 } },   /* flextile, 1 = layout axis */ \
@@ -14,7 +14,7 @@
 	{ MODKEY|Mod5Mask|Mod1Mask,     XK_Tab,        rotatelayoutaxis,       {.i = -4 } },   /* flextile, 4 = secondary stack axis */ \
 	{ MODKEY|ControlMask,           XK_Return,     mirrorlayout,           {0} },          /* flextile, flip master and stack areas */
 
-#define FLEXTILE_DELUXE_LAYOUTS_ARRAY \
+#define CONFIG_FLEXTILE_DELUXE_LAYOUTS_ARRAY \
 	static const Layout layouts[] = { \
 		/* symbol     arrange function, { nmaster, nstack, layout, master axis, stack axis, secondary stack axis, symbol func } */ \
 		{ "[]=",      flextile,         { -1, -1, SPLIT_VERTICAL, TOP_TO_BOTTOM, TOP_TO_BOTTOM, 0, NULL } }, /* default tile layout */ \
