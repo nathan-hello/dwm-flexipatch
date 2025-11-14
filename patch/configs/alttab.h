@@ -6,3 +6,6 @@
 	static const unsigned int tabposx          = 1;    /* tab position on X axis, 0 = left, 1 = center, 2 = right */ \
 	static const unsigned int maxwtab          = 600;  /* tab menu width */ \
 	static const unsigned int maxhtab          = 200;  /* tab menu height */
+
+#define ALT_TAB_KEYS \
+	{ Mod1Mask,                     XK_Tab,        alttabstart,            {0} },
