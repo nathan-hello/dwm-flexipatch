@@ -323,9 +323,9 @@ static const Rule rules[] = {
 	RULE(.class = "Gimp", .tags = 1 << 4)
 	RULE(.class = "Firefox", .tags = 1 << 7)
 	#if RENAMED_SCRATCHPADS_PATCH
-        RENAMED_SCRATCHPADS_RULES
+        CONFIG_RENAMED_SCRATCHPADS_RULES
 	#elif SCRATCHPADS_PATCH
-        SCRATCHPADS_RULES
+        CONFIG_SCRATCHPADS_RULES
 	#endif // SCRATCHPADS_PATCH
 };
 
