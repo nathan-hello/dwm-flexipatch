@@ -5,7 +5,7 @@
 #define CMD(...)   { .v = (const char*[]){ __VA_ARGS__, NULL } }
 
 /* Include all patch configurations */
-#include "patch/configs/all.h"
+#include "patch/configs/include.h"
 
 /* appearance */
 #if ROUNDED_CORNERS_PATCH
