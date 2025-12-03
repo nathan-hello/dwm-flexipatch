@@ -173,7 +173,7 @@
 #if ONE_EMPTY_KEYS_PATCH
 #include "onemptykeys.h"
 #endif
-#if ONLY_QUIT_ON_EMPTY_PATCH
+#if ONLYQUITONEMPTY_PATCH
 #include "onlyquitonempty.h"
 #endif
 #if BAR_PADDING_PATCH

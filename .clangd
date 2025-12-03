@@ -1,0 +1,22 @@
+CompileFlags:
+  CompilationDatabase: .
+
+If:
+  PathMatch: config\.h$
+
+CompileFlags:
+  Add:
+    - -DColFg=0
+    - -DColBg=1
+    - -DColBorder=2
+    - -DColFloat=3
+    - -DColCount=4
+
+---
+
+If:
+  PathMatch: .*\.h$
+
+CompileFlags:
+  Add:
+    - -xc
