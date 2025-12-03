@@ -1,6 +1,8 @@
 /* See LICENSE file for copyright and license details. */
 /* This file includes all patch configuration files */
 
+
+
 /* Bar functionality */
 #if BAR_ALPHA_PATCH
 #include "bar_alpha.h"

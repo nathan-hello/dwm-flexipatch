@@ -73,7 +73,7 @@ CONFIG_BAR_STATUSALLMONS_CONSTS
 #elif BAR_STATICSTATUS_PATCH
 CONFIG_BAR_STATICSTATUS_CONSTS
 #else
-CONFIG_BAR_DEFAULT_STATUSMON
+static const int statusmon               = 'A';
 #endif // BAR_STATUSALLMONS_PATCH | BAR_STATICSTATUS_PATCH
 #if BAR_STATUSPADDING_PATCH
 CONFIG_BAR_STATUSPADDING_CONSTS
@@ -137,7 +137,7 @@ CONFIG_BAR_TABGROUPS_DEFAULT_CONSTS
 #if BAR_PANGO_PATCH
 CONFIG_BAR_PANGO_CONSTS
 #else
-CONFIG_BAR_DEFAULT_FONTS
+static const char *fonts[]               = { "monospace:size=10" };
 #endif // BAR_PANGO_PATCH
 static const char dmenufont[]            = "monospace:size=10";
 
